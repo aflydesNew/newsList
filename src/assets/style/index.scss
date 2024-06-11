@@ -1,0 +1,37 @@
+@import "variables";
+@import "normalize";
+@import "fonts";
+
+.container{
+  margin: 0 auto;
+  padding: 0 32px;
+  max-width: 1774px;
+  width: 100%;
+
+  @media screen and (max-width: 600px){
+    padding: 0 16px;
+  }
+}
+
+.tag{
+  padding: 4px 16px;
+  color: $link-dark-default;
+  background: $color-hawkes-blue;
+  border-radius: 12px;
+}
+
+.btn{
+  padding: 16px 32px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  border-radius: 8px;
+
+}
+
+.btn-blue{
+  color: $color-button-bordered;
+  border: 1px solid $color-button-bordered;
+}

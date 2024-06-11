@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Nunito Sans';
+  src: local('Nunito Sans Black'), local('Nunito-Sans-Black'),
+  url('src/assets/fonts/NunitoSans-Black.ttf') format('ttf');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  src: local('Nunito Sans Bold'), local('Nunito-Sans-Bold'),
+  url('src/assets/fonts/NunitoSans-SemiBold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  src: local('Nunito Sans Regular'), local('Nunito-Sans-Regular'),
+  url('src/assets/fonts/NunitoSans-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.typo-h1{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+}
+
+.typo-xl{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.4px;
+}
+
+.typo-l {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+}
